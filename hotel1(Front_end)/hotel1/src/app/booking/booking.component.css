@@ -1,0 +1,69 @@
+
+
+
+.booking-box {
+    height: 650px;
+    background-color: gray;
+}
+
+.booking-items {
+    line-height: 30px;
+    padding-left: 0px;  
+    height: 100px;
+    list-style: none;
+}
+
+.booking-items li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.booking-items li:hover{
+    background-color: white;
+    color: grey;
+}
+
+.onActive {
+    background-color: aqua;
+    color: black;
+}
+
+.col-lg-10{
+    background-color:deepskyblue;
+}
+
+.checkIn{
+    background-color: aqua;
+}
+
+.extensionform{
+    background-color: darksalmon;
+}
+
+.reductionform{
+    background-color: antiquewhite;
+}
+
+.checkOutform{
+    background-color: burlywood;
+}
+
+.payment{
+    background-color: cornflowerblue;
+}
+
+.viewBooking{
+    background-color: lemonchiffon;
+}
+
+.error-msg{
+    color: red;
+ }
+ .form-control.ng-valid.ng-touched{
+    border: 2px solid green;
+ }
+ input.ng-touched.ng-invalid{
+    border: 2px solid red;
+ 
+ }

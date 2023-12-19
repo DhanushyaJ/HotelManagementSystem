@@ -1,0 +1,60 @@
+.app-admin-function{
+    background-color: blanchedalmond;
+}
+.admin-func-box{
+    height: 650px;
+    background-color: gray;
+}
+
+.admin-func-items {
+    line-height: 30px;
+    padding-left: 0px;  
+    height: 100px;
+    list-style: none;
+}
+
+.admin-func-items li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.admin-func-items li:hover{
+    background-color: white;
+    color: grey;
+}
+
+.onActive {
+    background-color: aqua;
+    color: black;
+}
+
+
+.createAdmin{
+    background-color: aqua;
+}
+
+.deleteAdmin{
+    background-color: darksalmon;
+}
+
+.viewAdmin{
+    background-color:aquamarine;
+}
+
+.viewAllAdmin{
+    background-color: burlywood;
+}
+
+
+
+.error-msg{
+    color: red;
+ }
+ .form-control.ng-valid.ng-touched{
+    border: 2px solid green;
+ }
+ input.ng-touched.ng-invalid{
+    border: 2px solid red;
+ 
+ }

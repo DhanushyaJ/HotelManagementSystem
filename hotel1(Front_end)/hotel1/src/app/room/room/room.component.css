@@ -1,0 +1,63 @@
+.app-room{
+    background-color: blanchedalmond;
+}
+.room-box{
+    height: 650px;
+    background-color: gray;
+}
+
+.room-items {
+    line-height: 30px;
+    padding-left: 0px;  
+    height: 100px;
+    list-style: none;
+}
+
+.room-items li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.error-msg{
+    color: red;
+ }
+ .form-control.ng-valid.ng-touched{
+    border: 2px solid green;
+ }
+ input.ng-touched.ng-invalid{
+    border: 2px solid red;
+ 
+ }
+
+.room-items li:hover{
+    background-color: white;
+    color: grey;
+}
+
+.onActive {
+    background-color: aqua;
+    color: black;
+}
+
+
+.createRoom{
+    background-color: aqua;
+}
+
+.deleteRoom{
+    background-color: darksalmon;
+}
+
+.viewRoom{
+    background-color: aquamarine;
+}
+
+.viewAllRoom{
+    background-color: burlywood;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+.app-recep-functions{
+    background-color: blanchedalmond;
+}
+.recep-box{
+    height: 650px;
+    background-color: gray;
+}
+
+.recep-items {
+    line-height: 30px;
+    padding-left: 0px;  
+    height: 100px;
+    list-style: none;
+}
+
+.recep-items li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.recep-items li:hover{
+    background-color: white;
+    color: grey;
+}
+
+.onActive {
+    background-color: aqua;
+    color: black;
+}
+
+
+.createRecep{
+    background-color: aqua;
+}
+
+.deleteRecep{
+    background-color: darksalmon;
+}
+
+.viewRecep{
+    background-color: antiquewhite;
+}
+
+.viewAllRecep{
+    background-color: burlywood;
+}
+
+.error-msg{
+    color: red;
+ }
+ .form-control.ng-valid.ng-touched{
+    border: 2px solid green;
+ }
+ input.ng-touched.ng-invalid{
+    border: 2px solid red;
+ 
+ }
+
+
+

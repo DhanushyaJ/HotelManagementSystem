@@ -1,0 +1,54 @@
+.app-owner-functions{
+    background-color: blanchedalmond;
+}
+.owner-func-box{
+    height: 650px;
+    background-color: gray;
+}
+
+.owner-func-items {
+    line-height: 30px;
+    padding-left: 0px;  
+    height: 100px;
+    list-style: none;
+}
+
+.owner-func-items li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.owner-func-items li:hover{
+    background-color: white;
+    color: grey;
+}
+
+.onActive {
+    background-color: aqua;
+    color: black;
+}
+
+
+.updateprofile{
+    background-color: aqua;
+}
+
+.deleteowner{
+    background-color: darksalmon;
+}
+
+.viewOwner{
+    background-color:aquamarine;
+}
+
+.error-msg{
+    color: red;
+ }
+ .form-control.ng-valid.ng-touched{
+    border: 2px solid green;
+ }
+ input.ng-touched.ng-invalid{
+    border: 2px solid red;
+ 
+ }
